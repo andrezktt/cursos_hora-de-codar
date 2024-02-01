@@ -1,15 +1,17 @@
 import './App.css';
-import Evento from './components/Evento'
-import Form from './components/Form'
+import React, {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Home from './pages/Home'
+import Empresa from './pages/Empresa'
+import Contato from './pages/Contato'
 
 
 function App() {
+
   return (
-    <div className="App">
-      <h1>Testando Eventos</h1>
-      <Form />
-    </div>
-  );
+    <>
+    <p> Olá caraio!</p>
+    </>
+  )
 }
 
 export default App;
