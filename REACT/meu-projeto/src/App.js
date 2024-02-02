@@ -1,15 +1,13 @@
 import './App.css';
-import React, {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
-import Home from './pages/Home'
-import Empresa from './pages/Empresa'
-import Contato from './pages/Contato'
+import React from 'react';
+import Footer from './components/Footer'
 
 
 function App() {
 
   return (
     <>
-    <p> Olá caraio!</p>
+    <Footer />
     </>
   )
 }
